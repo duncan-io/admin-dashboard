@@ -35,9 +35,25 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
 }
+.header .utilities form {
+  width: 500px;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header .utilities form input {
+  width: 500px;
+}
 .header .utilities .rightUtilities {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.header .utilities .rightUtilities a {
+  font-size: 1.5rem;
 }
 .header .actions {
   padding: 1rem;
@@ -50,6 +66,23 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  gap: 10px;
+}
+.header .actions button {
+  background-color: blue;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  border: none;
+}
+.header .actions button:hover {
+  background-color: lightblue;
+}
+.header .actions button:active {
+  background-color: darkblue;
 }
 .header .actions .identity {
   display: flex;
